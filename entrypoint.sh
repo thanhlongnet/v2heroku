@@ -1,4 +1,4 @@
 cd /v2raybin
-export
 echo $PORT
+sed -i "s/PORT/$PORT/g" config.json
 ./v2ray
