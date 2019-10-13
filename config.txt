@@ -16,7 +16,6 @@
     },
     "streamSettings": {
       "network": "ws"
-    }
   },
   "inboundDetour": [],
   "outbound": {
