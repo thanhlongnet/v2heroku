@@ -15,10 +15,7 @@
       ]
     },
     "streamSettings": {
-      "network": "h2",
-      "httpSettings": {
-          "path": "/ray"
-        }
+      "network": "ws"
     }
   },
   "inboundDetour": [],
