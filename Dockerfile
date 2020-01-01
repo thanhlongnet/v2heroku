@@ -7,7 +7,8 @@ RUN     mkdir /v2ray
         unzip ngrok.zip
         unzip v2ray.zip
         rm -rf ngrok.zip v2ray.zip config.json
- 
+        wget https://raw.githubusercontent.com/funnymdzz/v2actions/master/config.json 
+
 ADD entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh 
