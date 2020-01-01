@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN     mkdir -p /v2ray \
         && apt update \
-        && apt -y install wget \
+        && apt -y install wget unzip \
         && cd /v2ray \
         && wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O ngrok.zip \
         && wget https://github.com/v2ray/v2ray-core/releases/download/v4.21.3/v2ray-linux-64.zip -O v2ray.zip \
