@@ -1,2 +1,2 @@
-cd /v2ray
+cd /v2raybin
 ./v2ray
