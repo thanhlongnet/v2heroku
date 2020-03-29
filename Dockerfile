@@ -1,7 +1,6 @@
 FROM alpine:latest
 
-RUN apt update \
-        && apk add --no-cache --virtual .build-deps ca-certificates wget \
+RUN     && apk add --no-cache --virtual .build-deps ca-certificates wget \
         && mkdir /v2raybin \ 
         && cd v2raybin \
         && wget --no-check-certificate -O v2ray.zip https://github.com/v2ray/v2ray-core/releases/download/latest/v2ray-linux-64.zip \
