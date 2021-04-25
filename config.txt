@@ -9,7 +9,8 @@
       "clients": [
         {
           "id": "7b193f93-f2e4-49d4-9682-0f6bbcc619f1",
-          "decryption":"none" 
+          "alterId": 64,
+          "security": "aes-128-gcm"
         }
       ]
     },
