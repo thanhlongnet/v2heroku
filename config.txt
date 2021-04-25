@@ -3,7 +3,7 @@
     "loglevel": "info"
   },
   "inbound": {
-    "protocol": "vless",
+    "protocol": "vmess",
     "port": PORT,
     "settings": {
       "clients": [
